@@ -1,1 +1,63 @@
 /* styles here */
+body {
+    margin: 10px;
+    padding: 6px;
+    line-height: 1.3;
+    /* border: 2px dashed gray; */
+}
+
+h1, h2, h3 {
+    margin: 1.2rem;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: orange;
+}
+
+.legal {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.separator {
+    margin: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.separator::before, .separator::after {
+    content: " *** ";
+}
+
+.chapter {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.chapter>p {
+    margin: 1rem 0 1rem 0;
+    text-align: justify;
+}
+
+p:nth-of-type(1) {
+    text-align: center;
+}
+
+p:nth-of-type(2) {
+    text-align: right;
+    font-style: italic;
+}
+
+p:nth-of-type(3)::first-line {
+    font-weight: bold;
+}
+
+p:nth-of-type(3)::first-letter {
+    font-size: 2rem;
+}
